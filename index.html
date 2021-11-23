@@ -1,4 +1,10 @@
-<div class="css-3d-text">MOOD.ml</div>
+<section class="parallax parallax-demo">
+  <div class="container">
+  <div class="css-3d-text">MOOD.ml</div>
+  </div>
+</section>
+
+
 <style>
  .css-3d-text {
     font-size: 300px;
@@ -40,5 +46,40 @@
                  32px -32px 1px rgba(31,83,97,0.5),
                  0px 0px 31px rgba(31,83,97,.2);
  }
+ 
+ section.parallax {
+  position: relative;
+  height: auto;
+  padding: 180px 0px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.parallax:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.30);
+  z-index: 100;
+  content: ' ';
+}
+
+section.parallax h1 {
+  color: #fff;
+  position: relative;
+  z-index: 101;
+  font-size: 48px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 </style>
