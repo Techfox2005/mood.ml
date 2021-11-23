@@ -1,1 +1,24 @@
+.css-3d-text {
+  font-size: 300px;
+  color: #08e9f5;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-shadow: 0px 0px 0 rgb(4, 229, 241), 1px -1px 0 rgb(1, 226, 238),
+    2px -2px 0 rgb(-3, 222, 234), 3px -3px 0 rgb(-6, 219, 231),
+    4px -4px 0 rgb(-10, 215, 227), 5px -5px 0 rgb(-13, 212, 224),
+    6px -6px 0 rgb(-17, 208, 220), 7px -7px 0 rgb(-21, 204, 216),
+    8px -8px 0 rgb(-24, 201, 213), 9px -9px 0 rgb(-28, 197, 209),
+    10px -10px 0 rgb(-31, 194, 206), 11px -11px 0 rgb(-35, 190, 202),
+    12px -12px 0 rgb(-39, 186, 198), 13px -13px 0 rgb(-42, 183, 195),
+    14px -14px 0 rgb(-46, 179, 191), 15px -15px 0 rgb(-49, 176, 188),
+    16px -16px 0 rgb(-53, 172, 184), 17px -17px 0 rgb(-56, 169, 181),
+    18px -18px 0 rgb(-60, 165, 177), 19px -19px 0 rgb(-64, 161, 173),
+    20px -20px 0 rgb(-67, 158, 170), 21px -21px 0 rgb(-71, 154, 166),
+    22px -22px 0 rgb(-74, 151, 163), 23px -23px 0 rgb(-78, 147, 159),
+    24px -24px 0 rgb(-82, 143, 155), 25px -25px 0 rgb(-85, 140, 152),
+    26px -26px 0 rgb(-89, 136, 148), 27px -27px 0 rgb(-92, 133, 145),
+    28px -28px 0 rgb(-96, 129, 141), 29px -29px 0 rgb(-99, 126, 138),
+    30px -30px 0 rgb(-103, 122, 134), 31px -31px 0 rgb(-107, 118, 130),
+    32px -32px 31px rgba(31, 83, 97, 0.91), 32px -32px 1px rgba(31, 83, 97, 0.5),
+    0px 0px 31px rgba(31, 83, 97, 0.2);
+}
 
