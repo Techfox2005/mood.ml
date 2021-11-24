@@ -1,5 +1,5 @@
 .css-3d-text {
-  font-size: 300px;
+  font-size: 150px;
   color: #08e9f5;
   font-family: Tahoma, Geneva, sans-serif;
   text-shadow: 0px 0px 0 rgb(4, 229, 241), 1px -1px 0 rgb(1, 226, 238),
@@ -20,5 +20,93 @@
     30px -30px 0 rgb(-103, 122, 134), 31px -31px 0 rgb(-107, 118, 130),
     32px -32px 31px rgba(31, 83, 97, 0.91), 32px -32px 1px rgba(31, 83, 97, 0.5),
     0px 0px 31px rgba(31, 83, 97, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.box-shadow {
+  background: #F5F5F5;
+  color: #000;
+  text-align: center;
+  border-radius: 14px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  box-shadow: #A3A3A3 5px 5px 11px 0px;
+}
+
+.css-button {
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px #3866a3 solid;
+  padding: 10px 18px;
+  background: linear-gradient(180deg, #63B8EE 5%, #468CCF 100%);
+  text-shadow: 1px 1px 1px #4b4f54;
+  box-shadow: 1px 1px 2px 0px #000000;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+.css-button:hover {
+  background: linear-gradient(180deg, #468CCF 5%, #63B8EE 100%);
+}
+
+#animation-demo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  line-height: 1;
+  color: #000;
+
+  text-align: center;
+}
+
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
